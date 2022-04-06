@@ -1,0 +1,18 @@
+{
+    "name": "vendor/test",
+    "description": "Hct 403 assignment",
+    "require": {
+        "firebase/php-jwt": "^6.1",
+      "ext-pdo": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Test\\": "app/"
+        }
+    },
+    "authors": [{
+        "name": "blessingmwalein",
+        "email": "blessing@qubedlab.com"
+    }]
+}
